@@ -1818,10 +1818,93 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    
+
+     elif query.data == "extrafeature":
+        buttons = [[
+            InlineKeyboardButton('🖼️Tᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅᴇʀ', callback_data='telegraph')
+        ],[
+            InlineKeyboardButton('🎭Sᴛɪᴄᴋᴇʀ ɪᴅ ғɪɴᴅᴇʀ', callback_data='sticker')
+        ],[
+            InlineKeyboardButton('📄Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ', callback_data='font')
+        ],[
+            InlineKeyboardButton('🌍Cᴏᴜɴᴛʀʏ Iɴғᴏ', callback_data='country')
+        ],[
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about')
+        ]]
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+
+    elif query.data == "sticker":
+        buttons = [[
+            InlineKeyboardButton('⇐Bᴀᴄᴋ', callback_data='extrafeature')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.STICKER_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+    elif query.data == "telegraph":
+        buttons = [[
+            InlineKeyboardButton('⇐Bᴀᴄᴋ', callback_data='extrafeature')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.TELEGRAPH_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+    elif query.data == "font":
+        buttons = [[
+            InlineKeyboardButton('⇐Bᴀᴄᴋ', callback_data='extrafeature')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.FONT_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+    elif query.data == "country":
+        buttons = [[
+            InlineKeyboardButton('⇐Bᴀᴄᴋ', callback_data='extrafeature')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.COUNTRY_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
 
     elif query.data == "help":
         buttons = [[
+            InlineKeyboardButton('🎁Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇꜱ🎁', callback_data='extrafeature')
+        ], [
             InlineKeyboardButton('• ʙᴏᴛ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='admic')
         ], [
             InlineKeyboardButton('• ᴜꜱᴇʀ •', callback_data='users'),
