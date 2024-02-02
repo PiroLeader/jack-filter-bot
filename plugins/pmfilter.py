@@ -1571,28 +1571,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-elif query.data == "premium_info":
-        buttons = [[
-            InlineKeyboardButton('• ꜰʀᴇᴇ ᴛʀɪᴀʟ •', callback_data='free')
-        ],[
-            InlineKeyboardButton('• ʙʀᴏɴᴢᴇ •', callback_data='broze'),
-            InlineKeyboardButton('• ꜱɪʟᴠᴇʀ •', callback_data='silver')
-        ],[
-            InlineKeyboardButton('• ɢᴏʟᴅ •', callback_data='gold'),
-            InlineKeyboardButton('• ᴘʟᴀᴛɪɴᴜᴍ •', callback_data='platinum')
-        ],[
-            InlineKeyboardButton('• ᴅɪᴀᴍᴏɴᴅ •', callback_data='diamond'),
-            InlineKeyboardButton('• ᴏᴛʜᴇʀ •', callback_data='other')
-        ],[            
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
-        ]]
-        
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.PLAN_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
     elif query.data == "upidata":
         buttons = [[
             InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(5022283560))
@@ -1616,6 +1594,7 @@ elif query.data == "premium_info":
         await query.message.edit_text(
             text=script.QR_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
+            InputMediaPhoto(https://graph.org/file/19367e91fb207da1b8db1.jpg),
             parse_mode=enums.ParseMode.HTML
         )       
 
