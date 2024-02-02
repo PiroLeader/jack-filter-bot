@@ -1559,9 +1559,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "purchase":
         buttons = [[
-            InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ 💵', callback_data='upi_info')
+            InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ 💵', callback_data='upidata')
         ],[
-            InlineKeyboardButton('📸 ꜱᴄᴀɴ ǫʀ ᴄᴏᴅᴇ 📸', callback_data='qr_info')
+            InlineKeyboardButton('📸 ꜱᴄᴀɴ ǫʀ ᴄᴏᴅᴇ 📸', callback_data='qrdata')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
@@ -1594,7 +1594,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.QR_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            InputMediaPhoto(https://graph.org/file/19367e91fb207da1b8db1.jpg),
+            InputMediaPhoto("https://graph.org/file/19367e91fb207da1b8db1.jpg"),
             parse_mode=enums.ParseMode.HTML
         )       
 
