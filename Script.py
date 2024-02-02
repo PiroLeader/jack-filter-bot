@@ -7,7 +7,7 @@ class script(object):
     
 ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
 
-    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : {}
+    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/test_filter_295_bot">testbot</a>
     ‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/EK4MPREETSINGH'>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a>
     ‣ ʟɪʙʀᴀʀʏ : <a href"https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
     ‣ ʟᴀɴɢᴜᴀɢᴇ  <a href"https://python.org/">ᴘʏᴛʜᴏɴ</a>
