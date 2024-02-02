@@ -1603,7 +1603,6 @@ elif query.data == "premium_info":
         await query.message.edit_text(
             text=script.UPI_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            InputMediaPhoto(random.choice(PICS)),
             parse_mode=enums.ParseMode.HTML
         )
 
@@ -1617,7 +1616,6 @@ elif query.data == "premium_info":
         await query.message.edit_text(
             text=script.QR_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            InputMediaPhoto('https://graph.org/file/19367e91fb207da1b8db1.jpg'),
             parse_mode=enums.ParseMode.HTML
         )       
 
