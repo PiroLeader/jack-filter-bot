@@ -8,12 +8,12 @@ class script(object):
 ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
 
     ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : {}
-    ‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/EK4MPREETSINGH'>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a>
-    ‣ ʟɪʙʀᴀʀʏ : <a href"https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
-    ‣ ʟᴀɴɢᴜᴀɢᴇ  <a href"https://python.org/">ᴘʏᴛʜᴏɴ</a>
-    ‣ ᴅᴀᴛᴀʙᴀsᴇ : <a href"https://Mongodb.com">ᴍᴏɴɢᴏ DB</a>
-    ‣ ʜᴏsᴛᴇᴅ ᴏɴ  : <a href"https://heroku.com">ʜᴇʀᴏᴋᴜ</a>
-    ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ4.2 [sᴛᴀʙʟᴇ]</b>"""
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/EK4MPREETSINGH'>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a>
+‣ ʟɪʙʀᴀʀʏ : <a href"https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
+‣ ʟᴀɴɢᴜᴀɢᴇ  <a href"https://python.org/">ᴘʏᴛʜᴏɴ</a>
+‣ ᴅᴀᴛᴀʙᴀsᴇ : <a href"https://Mongodb.com">ᴍᴏɴɢᴏ DB</a>
+‣ ʜᴏsᴛᴇᴅ ᴏɴ  : <a href"https://heroku.com">ʜᴇʀᴏᴋᴜ</a>
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ4.2 [sᴛᴀʙʟᴇ]</b>"""
     
     CHANNELS = """
 <b>⚡ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ ⚡ 
