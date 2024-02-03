@@ -1768,15 +1768,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/HP_MOVIES_WORLD')
+            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/MoviesGalaxy02')
         ],[
-            InlineKeyboardButton('🔍 ɢʀᴏᴜᴘ¹', url='https://t.me/MoviesLinkSearchBot2'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ² 🔎', url='https://t.me/MoviesLinkSearchBot3')
-        ],[
-            InlineKeyboardButton('✉️ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✉️', url='https://t.me/HpMovieRequest')
+            InlineKeyboardButton('🎥 ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ 🎥', url='https://t.me/MoviesGalaxy120')
         ],[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/HpRequestBot')
+            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/EK4MPREETSINGH1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1807,7 +1804,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "admic":
+    elif query.data == "admininfo":
         if query.from_user.id not in ADMINS:
             return await query.answer("⚠️ ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ʙᴏᴛ ᴀᴅᴍɪɴ !", show_alert=True)        
         buttons = [[
@@ -1912,7 +1909,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🎁Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇꜱ🎁', callback_data='extrafeature')
         ], [
-            InlineKeyboardButton('• ʙᴏᴛ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='admic')
+            InlineKeyboardButton('• ʙᴏᴛ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='admininfo')
         ], [
             InlineKeyboardButton('• ᴜꜱᴇʀ •', callback_data='users'),
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', callback_data='group')
