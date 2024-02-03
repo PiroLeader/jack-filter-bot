@@ -1586,6 +1586,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "qrdata":
         buttons = [[
+            InlineKeyboardButton('📷 sᴇᴇ ǫʀ ᴄᴏᴅᴇ', url="https://telegra.ph/Buy-Premium-02-03")
+        ],[
             InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(5022283560))
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
@@ -1594,7 +1596,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.QR_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            InputMediaPhoto("https://graph.org/file/19367e91fb207da1b8db1.jpg"),
             parse_mode=enums.ParseMode.HTML
         )       
 
