@@ -11,6 +11,7 @@ pyrogram>=2.0.30
  datetime 
  pytz 
  aiohttp
+ countryinfo
 
 #---master---# 
  #Telethroid==0.0.10 
@@ -40,8 +41,7 @@ apscheduler
 pyshorteners
 pyromod
 colorama
-telegraph
-countryinfo
+
 
 
 
