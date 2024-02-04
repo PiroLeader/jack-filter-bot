@@ -40,6 +40,8 @@ apscheduler
 pyshorteners
 pyromod
 colorama
+telegraph
+countryinfo
 
 
 
