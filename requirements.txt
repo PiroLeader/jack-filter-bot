@@ -11,7 +11,7 @@ pyrogram>=2.0.30
  datetime 
  pytz 
  aiohttp
- countryinfo
+countryinfo
 
 #---master---# 
  #Telethroid==0.0.10 
