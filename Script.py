@@ -449,3 +449,26 @@ special Thanks To ❤️ Developer -
 
 -Dev [Owner of this bot ]<a href='https://t.me/DeletedFromEarth'>HP</a>
 """
+
+
+    EXTRA_FEATURE_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Oᴘᴛɪᴏɴs Bᴇʟᴏᴡ!"""
+
+    STICKER_TXT = """<b>yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴛᴏ ꜰɪɴᴅ ᴀɴy  ꜱᴛɪᴄᴋᴇʀꜱ ɪᴅ
+ 
+⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ
+◉ Reply To Any Sticker [/stickerid]
+</b>"""
+
+    TELEGRAPH_TXT = """<b>ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ғᴇᴀᴛᴜʀᴇ ᴛᴏ ᴜᴘʟᴏᴀᴅ ᴀɴʏ ғɪʟᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ
+⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 
+ᴜᴘʟᴏᴀᴅ ᴀɴʏ ɪᴍᴀɢᴇ ᴜɴᴅᴇʀ 𝟻MB ᴀɴᴅ ʀᴇᴘʟʏ ɪᴛ ᴡɪᴛʜ /telegraph
+</b>"""
+
+    FONT_TXT = """<b>Yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ғᴇᴀᴛᴜʀᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ғᴏɴᴛ ꜱᴛʏʟᴇ
+COMMAND : /font your text (optional)
+         Eg:- /font Hello</b>"""
+
+    COUNTRY_TXT = """<b>ᴄᴏᴜɴᴛʀʏ ɪɴғᴏ
+ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ғᴇᴀᴛᴜʀᴇ ᴛᴏ ғɪɴᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄᴏᴜɴᴛʀɪᴇs
+• /country [country name] 
+𝖤𝗑𝖺𝗆𝗉𝗅𝖾 :- /country India</b>"""
